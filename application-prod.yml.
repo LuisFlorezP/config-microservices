@@ -1,1 +1,8 @@
-
+spring:
+  application:
+    name: Config-produc
+  cloud:
+    discovery:
+      client:
+        simple:
+          service-uri: http://localhost:8761/eureka
