@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: SERVICE-USER
   cloud:
     discovery:
       client:
